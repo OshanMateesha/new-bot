@@ -4,11 +4,11 @@ require("dotenv").config();
 
 // Default values for global variables
 global.available = process.env.AVAILABLE || true;
-global.autoReadAll = process.env.AUTO_READ_ALL || false;
+global.autoReadAll = process.env.AUTO_READ_ALL || true;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
-global.autoTyping = process.env.AUTO_TYPING || false;
+global.autoTyping = process.env.AUTO_TYPING || true;
 global.autoRecord = process.env.AUTO_RECORD || false;
 global.groupevent = process.env.GROUPEVENT || false;
 global.statusseen = process.env.STATUSSEEN || true;
